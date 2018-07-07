@@ -75,5 +75,42 @@ header {
     text-align: justify;
 }
 
+.contBotonPedido {
+    float: right;
+    position: fixed;
+    right: 20px;
+    bottom: 400px;
+}
+
+.botonPedido {
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.logo {
+        width: 300px;
+        height: 80px;
+    background-image: url('../images/logopeq.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 550px;
+}
+
+@media only screen and (min-device-width: 950px) {
+    .logo {
+        width: 600px;
+        height: 180px;
+        background-image: url('../images/logotipo.png');
+    }
+}
 
 

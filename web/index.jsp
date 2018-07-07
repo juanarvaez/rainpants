@@ -20,8 +20,13 @@
             </section>
 	</header>
         
-        <button
+        <div class="logo"></div>
+
         
+        <div class="contBotonPedido">
+            <button type="button" class="botonPedido">Realizar pedido</button>
+        </div>
+                
         <div class="contInfoEmpresa">
             <div class="descripcionEmpresa">
                 Somos una tienda donde el caballero elegante y distiguido puede encontrar la mejora calidad en ropa
