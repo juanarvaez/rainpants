@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7/07/2018, 01:14:01 AM
+    Author     : Juan
+*/
+
+body {
+    background: url(../images/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    background-color: red;
+}
+
+.contenedorContacto {
+    float: right;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+   -moz-box-shadow: 2px 2px 5px #999;
+   background-color: rgba(0,0,2,0.4);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+   -webkit-box-shadow: 10px 10px 0px -5px rgba(227,224,227,0.37);
+   -moz-box-shadow: 10px 10px 0px -5px rgba(227,224,227,0.37);
+   box-shadow: 0 0 30px black;
+}
+
+.contactanos {
+    border-radius: 10px 10px 10px 10px;
+    background-color: grey;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.informacionContacto {
+   font-size: 20px;   
+   padding-bottom: 5px;
+   padding-left: 5px;
+   padding-top: 5px;
+   padding-right: 5px;
+   color: white;
+}
+
+.descripcionEmpresa {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(0,0,2,0.4);
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    float: right;
+    right: 20px;
+    bottom: 250px;
+    font-size: 20px;
+    
+    color: white;
+    width: 600px;
+    float: right;
+    position: fixed;
+    text-align: justify;
+}
+
+
+
