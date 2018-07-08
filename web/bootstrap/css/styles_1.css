@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 body {
-    background: url(../images/fondo.jpg) no-repeat center center fixed;
+    background: url(../images/fondo2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,11 +21,12 @@ header {
 }
 
 .contenedorContacto {
-    float: right;
+    /*float: right;
     position: fixed;
     right: 20px;
     bottom: 20px;
-   -moz-box-shadow: 2px 2px 5px #999;
+        top: 50%;
+    left: 50%;
    background-color: rgba(0,0,2,0.4);
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
@@ -33,7 +34,9 @@ header {
     border: 0px solid #000000;
    -webkit-box-shadow: 10px 10px 0px -5px rgba(227,224,227,0.37);
    -moz-box-shadow: 10px 10px 0px -5px rgba(227,224,227,0.37);
-   box-shadow: 0 0 30px black;
+   box-shadow: 0 0 30px black;*/
+    top: 50%;
+    left: 50%;
 }
 
 .contactanos {
@@ -106,7 +109,50 @@ header {
 }
 
 .contFormulario {
-    border-color: black;
+    /*float: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+   -moz-box-shadow: 2px 2px 5px #999;
+   background-color: rgba(0,0,2,0.4);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+   -webkit-box-shadow: 10px 10px 0px -5px rgba(227,224,227,0.37);
+   -moz-box-shadow: 10px 10px 0px -5px rgba(227,224,227,0.37);
+   box-shadow: 0 0 30px black;*/
+    		position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+		top:50%;
+		left:50%;
+		/*determinamos una anchura*/
+		width: auto;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-200px;
+		/*determinamos una altura*/
+		height:auto;
+		/*indicamos que el margen superior, es la mitad de la altura*/
+		margin-top:-150px;
+		border:1px solid #808080;
+		padding:5px;
+                   background-color: rgba(0,0,2,0.4);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    
+}
+
+.formulario {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    color: white;
 }
 
 @media only screen and (min-device-width: 950px) {
